@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">NETFLIX</h1>
+    <button class="profile-btn">Profile</button>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="banner">
+    <div class="banner-content">
+      <h1>Stranger Things</h1>
+      <p>When a young boy disappears, his mother must confront terrifying forces.</p>
+      <button onclick="playMovie()">▶ Play</button>
+      <button>+ My List</button>
+    </div>
+  </section>
+
+  <!-- Movie Rows -->
+  <section class="row">
+    <h2>Trending Now</h2>
+    <div class="row-posters" id="trending"></div>
+  </section>
+
+  <section class="row">
+    <h2>Top Rated</h2>
+    <div class="row-posters" id="topRated"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
